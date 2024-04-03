@@ -31,19 +31,29 @@
   }
 
   .swiper-slide:nth-child(1n) {
-    background-color: rgb(206, 17, 17);
+    background: #67b26f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #67b26f, #4ca2cd); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #67b26f, #4ca2cd);
   }
 
   .swiper-slide:nth-child(2n) {
-    background-color: rgb(0, 140, 255);
+    background: #a770ef; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
   }
 
   .swiper-slide:nth-child(3n) {
-    background-color: rgb(10, 184, 111);
+    background: #ef32d9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
 
   .swiper-slide:nth-child(4n) {
-    background-color: rgb(211, 122, 7);
+    background: #4ECDC4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
   }
 
   .swiper-slide:nth-child(5n) {
@@ -108,7 +118,7 @@
     height: 100vh;
     top: 0;
     left: 0;
-    background: linear-gradient(180deg, #125e6b, #000000);
+    background: linear-gradient(180deg, #311b49, #000000);
     background-size: 400% 400%;
     z-index: -1;
 
